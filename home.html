@@ -9,187 +9,256 @@
   <body>
     <!-- HEADER -->
 
-    <header>
-      <nav>
-        <button></button>
-        <a></a>
-        <ul>
+    <header class="header-global">
+      <nav class="menu">
+        <button class="menu-icon"></button>
+        <a href="/home.html">
+          <img class="logo-icon" />
+        </a>
+        <ul class="menu-session">
           <!-- Menu Session -->
-          <li></li>
-          <li></li>
-        </ul>
-        <ul>
-          <!-- Session Menu -->
-          <li></li>
-          <li></li>
-          <li></li>
+          <li class="menu-session__icon">
+            <a class="menu-profile">
+              <img class="profile-icon" />
+            </a>
+          </li>
+          <li class="menu-session__icon">
+            <a class="menu-shopping-bag">
+              <img class="shopping-bag-icon" />
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
 
     <!-- MAIN -->
-    <main>
+    <main class="main-content">
+      <!-- MENU SEGMENT -->
+      <ul class="menu-segment">
+        <li class="menu-segment__title">
+          <a class="title-text">New Arrivals</a>
+        </li>
+        <li class="menu-segment__title">
+          <a class="title-text">On Sale!</a>
+        </li>
+        <li class="menu-segment__title">
+          <a class="title-text">Popular Items</a>
+        </li>
+      </ul>
+
       <!-- HEADLINE BANNER | Deals -->
-      <section>
-        <h1></h1>
-        <p></p>
+      <section class="deals-banner">
+        <a>
+          <h1 class="deals-title">Newly added gear from $9.99</h1>
+          <p class="deals-description">Sale going from 9/12 - 10/2</p>
+        </a>
       </section>
 
       <!-- SLIDESHOW -->
-      <section>
+      <section class="product-slideshow">
         <!-- Image 1 -->
-        <section>
-          <img />
+        <section class="product-slideshow__image">
+          <a class="product-slideshow__link">
+            <img class="product-image" />
+          </a>
         </section>
 
         <!-- Image 2 -->
-        <section>
-          <img />
+        <section class="product-slideshow__image">
+          <a class="product-slideshow__link">
+            <img class="product-image" />
+          </a>
         </section>
 
         <!-- Image 3 -->
-        <section>
-          <img />
+        <section class="product-slideshow__image">
+          <a class="product-slideshow__link">
+            <img class="product-image" />
+          </a>
         </section>
       </section>
 
       <!-- HEADLINE BANNER | Newsletter -->
-      <section>
-        <h1></h1>
-        <p></p>
+      <section class="newsletter-banner">
+        <a class="newsletter-banner__link">
+          <h1 class="newsletter-title">
+            Sign up for our Newsletter for 10% off your first purchase
+          </h1>
+          <p class="newsletter-description">
+            Opt in Camera News to have all your offers and rewards delivered
+            right to your inbox!
+          </p>
+        </a>
       </section>
 
-      <!-- FEATURED ITEM | Featured Item 1 -->
-      <section>
-        <!-- Image -->
-        <section>
-          <img />
-        </section>
-
-        <!-- Information -->
-        <section>
-          <!-- Title -->
-          <h1></h1>
-
-          <!-- Description -->
-          <section>
-            <p></p>
-            <h1></h1>
-            <button></button>
+      <!-- FEATURED ITEM -->
+      <section class="featured-item">
+        <a class="featured-item__main">
+          <!-- Image -->
+          <section class="featured-item__image">
+            <img class="item-image" />
           </section>
-        </section>
+
+          <!-- Information -->
+          <section class="featured-item__information">
+            <!-- Title -->
+            <h1 class="item-title">
+              Alpha 7 IV - Full-frame Interchangeable Lens Camera 33MP, 10FPS,
+              4k/60p
+            </h1>
+
+            <!-- Description -->
+            <section class="featured-item__description">
+              <p class="delivery-date">Est. Delivery Oct 12-13</p>
+              <h1 class="price">$2,499.99</h1>
+              <button class="shop-now-btn">Show Now</button>
+            </section>
+          </section>
+        </a>
       </section>
 
       <!-- ACCESSORIES -->
-      <section>
-        <h1></h1>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+      <section class="accessories">
+        <!-- Title -->
+        <h1 class="accessories-title"></h1>
+
+        <!-- List -->
+        <ul class="accessories-list">
+          <li class="accessories-category">
+            <img class="category-image" />
+          </li>
+          <li class="accessories-category">
+            <img class="category-image" />
+          </li>
+          <li class="accessories-category">
+            <img class="category-image" />
+          </li>
+          <li class="accessories-category">
+            <img class="category-image" />
+          </li>
+          <li class="accessories-category">
+            <img class="category-image" />
+          </li>
         </ul>
       </section>
 
-      <!-- FEATURED ITEM | Featured Item 2 -->
-      <section>
-        <!-- Image -->
-        <section>
-          <img />
-        </section>
-
-        <!-- Information -->
-        <section>
-          <!-- Title -->
-          <h1></h1>
-
-          <!-- Description -->
-          <section>
-            <p></p>
-            <h1></h1>
-            <button></button>
+      <!-- POPULAR ITEM -->
+      <section class="popular-item">
+        <a class="popular-item__main">
+          <!-- Image -->
+          <section class="popular-item__image">
+            <img class="item-image" />
           </section>
-        </section>
+
+          <!-- Information -->
+          <section class="popular-item__information">
+            <!-- Title -->
+            <h1 class="item-title">
+              Alpha 1 - Full-frame Interchangeable Lens Camera 50.1MP, 30FPS,
+              4k/120p/8K/30p
+            </h1>
+
+            <!-- Description -->
+            <section class="popular-item__description">
+              <p class="delivery-date">Est. Delivery Oct 12-13</p>
+              <h1 class="price">$6,499.99</h1>
+              <button class="shop-now-btn">Shop Now</button>
+            </section>
+          </section>
+        </a>
       </section>
 
       <!-- FEATURED LENS -->
-      <section>
+      <section class="featured-lens">
         <!-- Title / Description -->
-        <h1></h1>
-        <p></p>
+        <h1 class="featured-lens__title"></h1>
+        <p class="featured-lens__description"></p>
 
         <!-- Featured Products -->
-        <ul>
+        <ul class="featured-lens-list">
           <!-- Item 1 -->
-          <li>
-            <section>
-              <img />
-            </section>
-            <section>
-              <p></p>
-            </section>
+          <li class="featured-lens">
+            <a class="featured-lens__main">
+              <section class="featured-lens__image">
+                <img class="lens-image" />
+              </section>
+              <section class="featured-lens__description">
+                <p class="lens-description"></p>
+              </section>
+            </a>
           </li>
           <!-- Item 2 -->
-          <li>
-            <section>
-              <img />
-            </section>
-            <section>
-              <p></p>
-            </section>
+          <li class="featured-lens">
+            <a class="featured-lens__main">
+              <section class="featured-lens__image">
+                <img class="lens-image" />
+              </section>
+              <section class="featured-lens__description">
+                <p class="lens-description"></p>
+              </section>
+            </a>
           </li>
           <!-- Item 3 -->
-          <li>
-            <section>
-              <img />
-            </section>
-            <section>
-              <p></p>
-            </section>
+          <li class="featured-lens">
+            <a class="featured-lens__main">
+              <section class="featured-lens__image">
+                <img class="lens-image" />
+              </section>
+              <section class="featured-lens__description">
+                <p class="lens-description"></p>
+              </section>
+            </a>
           </li>
         </ul>
       </section>
     </main>
 
     <!-- FOOTER -->
-    <footer>
-      <section>
+    <footer class="footer-global">
+      <section class="categories">
         <!-- Help Section -->
-        <nav>
-          <h1></h1>
-          <section>
-            <a></a>
-            <a></a>
-            <a></a>
+        <nav class="help-category">
+          <h1 class="category-title">HELP</h1>
+          <section class="category-list">
+            <a class="link">Contact Us</a>
+            <a class="link">My Account</a>
+            <a class="link">Legal & Privacy</a>
           </section>
         </nav>
 
         <!-- Shop Section -->
-        <nav>
-          <h1></h1>
-          <section>
-            <a></a>
-            <a></a>
-            <a></a>
-            <a></a>
-            <a></a>
-            <a></a>
+        <nav class="shop-category">
+          <h1 class="category-title">SHOP</h1>
+          <section class="category-list">
+            <a class="link">Cameras</a>
+            <a class="link">Lens</a>
+            <a class="link">Batteries</a>
+            <a class="link">Accessories</a>
+            <a class="link">Carrying Bags</a>
+            <a class="link">Tripods</a>
           </section>
         </nav>
 
         <!-- NewsLetter Section -->
-        <nav>
-          <h1></h1>
-          <p></p>
-          <a></a>
+        <nav class="newsletter-category">
+          <h1 class="category-title">Sign up to our Newsletter</h1>
+          <p class="category-description">
+            Join now and get 10% off your next purchase!
+          </p>
+          <a class="category-link">READ MORE ></a>
         </nav>
       </section>
 
       <!-- Footer Logo -->
-      <section>
-        <a></a>
-        <p></p>
+      <section class="footer-logo">
+        <a>
+          <img class="logo-icon" />
+        </a>
+      </section>
+
+      <!-- Country | Language -->
+      <section class="country-category">
+        <p class="country">United States | $</p>
       </section>
     </footer>
   </body>
