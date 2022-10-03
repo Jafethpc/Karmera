@@ -1,0 +1,337 @@
+* {
+  border-style: none;
+  background: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* HEADER */
+
+.header-global {
+  display: flex;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.menu {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  width: 100px;
+}
+.nav-icon,
+.profile-icon,
+.shopping-bag-icon {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+.logo-icon {
+  height: 55px;
+}
+.menu-session {
+  display: flex;
+  flex-direction: row;
+}
+
+/* -- MAIN -- */
+
+/* MENU SEGMENT */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+}
+.menu-segment {
+  display: flex;
+  flex-direction: row;
+}
+.menu-segment__title {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 13px;
+  margin: 0 30px;
+  cursor: pointer;
+}
+.menu-segment__title:hover {
+  color: rgb(223, 52, 52);
+}
+
+/* DEALS BANNER */
+.deals-banner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(223, 52, 52);
+  color: white;
+  font-family: Montserrat;
+  padding: 10px 0;
+  margin-top: 12px;
+}
+.deals-title {
+  font-weight: 500;
+  padding: 8px 0;
+}
+.deals-description {
+  font-size: 11px;
+  padding-bottom: 10px;
+}
+
+/* SLIDESHOW */
+.product-slideshow,
+.product-slideshow__image .product-slideshow__link,
+.product-slideshow .product-image {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+}
+.product-slideshow {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 25px 0;
+}
+.product-image {
+  display: none;
+  cursor: pointer;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  color: rgb(223, 52, 52);
+  font-weight: bold;
+  font-size: 60px;
+  transition: color 0.15s;
+  user-select: none;
+  padding: 10px;
+}
+.prev:hover,
+.next:hover {
+  color: white;
+}
+.next {
+  right: 0;
+}
+.prev {
+  left: 0;
+}
+
+/* HEADLINE BANNER */
+.newsletter-banner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(29, 19, 2);
+  color: rgb(223, 52, 52);
+  font-family: Montserrat;
+  padding: 10px 0;
+  transition: color 0.1s, background-color 0.1s;
+}
+.newsletter-banner:hover {
+  color: white;
+  background-color: rgb(223, 52, 52);
+}
+.newsletter-banner__link {
+  cursor: pointer;
+}
+.newsletter-title {
+  font-weight: 500;
+  padding: 8px 0;
+}
+.newsletter-description {
+  font-size: 11px;
+  padding-bottom: 10px;
+}
+
+/* FEATURED ITEM */
+.featured-item__main {
+  display: flex;
+  flex-direction: row;
+  font-family: Montserrat;
+  background-color: rgb(245, 245, 245);
+  margin: 25px 0;
+  padding: 15px 0;
+}
+.featured-item__image {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.featured-item__image .item-image {
+  width: 90%;
+}
+.featured-item__information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  padding: 20px 20px;
+}
+.item-title {
+  font-weight: 700;
+}
+.featured-item__description .delivery-date {
+  font-size: 12px;
+  font-weight: 500;
+}
+.featured-item__description .price {
+  font-size: 25px;
+  margin: 4px;
+}
+.featured-item__description .shop-now-btn {
+  color: white;
+  background-color: rgb(223, 52, 52);
+  font-family: Montserrat;
+  font-size: 20px;
+  width: 100%;
+  padding: 9px 0;
+  border-radius: 7px;
+  transition: background-color 0.1s, color 0.1s, font-weight 0.1s;
+  cursor: pointer;
+}
+.featured-item__description .shop-now-btn:hover {
+  background-color: white;
+  color: rgb(223, 52, 52);
+  font-weight: 700;
+}
+
+/* ACCESSORIES */
+.accessories {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.accessories-title {
+  font-family: Montserrat;
+  margin-bottom: 6px;
+}
+.accessories-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.accessories-category,
+.category-image {
+  width: 100px;
+  height: 100px;
+}
+.accessories-category {
+  background-color: rgb(245, 245, 245);
+  border-radius: 80px;
+  cursor: pointer;
+}
+.accessories-category:hover {
+  background-color: rgb(217, 217, 217);
+}
+
+/* POPULAR ITEM */
+.popular-item {
+  width: 100%;
+  height: 337.5px;
+  position: relative;
+  margin: 25px 0;
+}
+.popular-item__image .item-image {
+  width: 100%;
+  position: absolute;
+}
+.popular-item__information {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 45%;
+  padding: 0 0 0 25px;
+}
+.popular-item__information .item-title {
+  font-weight: 600;
+
+  padding-top: 20px;
+}
+.popular-item__information .delivery-date {
+  font-size: 12px;
+  font-weight: 500;
+}
+.popular-item__information .price {
+  font-size: 30px;
+  margin: 4px 0;
+}
+.popular-item__information .shop-now-btn {
+  color: white;
+  background-color: rgb(223, 52, 52);
+  font-family: Montserrat;
+  font-size: 20px;
+  width: 80%;
+  padding: 9px 0;
+  border-radius: 7px;
+  transition: background-color 0.1s, color 0.1s, font-weight 0.1s;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+.popular-item__description .shop-now-btn:hover {
+  background-color: white;
+  color: rgb(223, 52, 52);
+  font-weight: 700;
+}
+.popular-item__information .item-title,
+.popular-item__description .delivery-date,
+.popular-item__description .price {
+  color: white;
+  font-family: Montserrat;
+}
+
+.featured-lens-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  background-color: rgb(29, 19, 2);
+  color: white;
+  font-family: Montserrat;
+}
+.featured-lens-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 25px;
+}
+.featured-lens__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+  background-color: white;
+}
+.featured-lens .lens-image {
+  width: 200px;
+  height: 200px;
+}
+.featured-lens__description .lens-description {
+  color: black;
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  padding: 20px 10px;
+}
