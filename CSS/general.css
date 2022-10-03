@@ -33,13 +33,13 @@ body {
   justify-content: flex-start;
   align-items: center;
   height: 50px;
-  width: 100px;
+  width: 70px;
 }
 .nav-icon,
 .profile-icon,
 .shopping-bag-icon {
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
 }
 .logo-icon {
@@ -107,7 +107,7 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-  margin: 25px 0;
+  margin: 30px 0;
 }
 .product-image {
   display: none;
@@ -170,22 +170,24 @@ body {
   flex-direction: row;
   font-family: Montserrat;
   background-color: rgb(245, 245, 245);
-  margin: 25px 0;
+  height: 300px;
+  margin: 30px 0;
   padding: 15px 0;
 }
 .featured-item__image {
   display: flex;
   justify-content: center;
-  width: 50%;
+  width: 58%;
 }
 .featured-item__image .item-image {
   width: 90%;
+  object-fit: contain;
 }
 .featured-item__information {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 50%;
+  width: 42%;
   padding: 20px 20px;
 }
 .item-title {
@@ -196,7 +198,7 @@ body {
   font-weight: 500;
 }
 .featured-item__description .price {
-  font-size: 25px;
+  font-size: 30px;
   margin: 4px;
 }
 .featured-item__description .shop-now-btn {
@@ -251,7 +253,7 @@ body {
   width: 100%;
   height: 337.5px;
   position: relative;
-  margin: 25px 0;
+  margin: 30px 0;
 }
 .popular-item__image .item-image {
   width: 100%;
@@ -268,7 +270,6 @@ body {
 }
 .popular-item__information .item-title {
   font-weight: 600;
-
   padding-top: 20px;
 }
 .popular-item__information .delivery-date {
@@ -289,7 +290,7 @@ body {
   border-radius: 7px;
   transition: background-color 0.1s, color 0.1s, font-weight 0.1s;
   cursor: pointer;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 .popular-item__description .shop-now-btn:hover {
   background-color: white;
@@ -303,35 +304,124 @@ body {
   font-family: Montserrat;
 }
 
-.featured-lens-list {
+.featured-lens {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   background-color: rgb(29, 19, 2);
-  color: white;
-  font-family: Montserrat;
 }
 .featured-lens-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 25px;
+  width: 750px;
+  padding: 30px 0;
+  color: white;
+  font-family: Montserrat;
+}
+.featured-lens__link {
+  margin: 0 15px;
+}
+.featured-lens__title {
+  font-size: 30px;
+  margin-top: 30px;
+}
+.featured-lens__description {
+  font-size: 14px;
+}
+.featured-lens__title,
+.featured-lens__description {
+  font-family: Montserrat;
+  color: white;
 }
 .featured-lens__main {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 220px;
+  height: 100%;
   background-color: white;
+  cursor: pointer;
 }
-.featured-lens .lens-image {
+.featured-lens__image .lens-image {
   width: 200px;
   height: 200px;
 }
 .featured-lens__description .lens-description {
-  color: black;
   background-color: rgb(245, 245, 245);
+  color: black;
+  font-weight: 500;
   text-align: center;
-  padding: 20px 10px;
+  padding: 10px 10px 0 10px;
+  height: 90px;
+}
+.featured-lens__description .lens-description:hover {
+  background-color: rgb(223, 52, 52);
+  color: white;
+}
+
+/* FOOTER */
+.footer-global {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(236, 236, 236);
+  width: 100%;
+  font-family: Montserrat;
+}
+.categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600px;
+  margin: 60px 0 30px 0;
+}
+.category-title {
+  color: rgb(223, 52, 52);
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.link {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 30px;
+  cursor: pointer;
+}
+.category-description {
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.link:hover {
+  color: rgb(223, 52, 52);
+}
+.category-list {
+  display: flex;
+  flex-direction: column;
+}
+.category-link {
+  color: rgb(223, 52, 52);
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.category-link:hover {
+  color: rgb(29, 19, 2);
+  font-weight: 700;
+}
+.footer-logo .logo-icon {
+  width: 175px;
+  height: auto;
+}
+.country-category,
+.country {
+  margin-top: -5px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.country-category {
+  margin-bottom: 50px;
 }

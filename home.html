@@ -12,6 +12,13 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="preload"
+      href="KLONDORegular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
     <title>Home</title>
   </head>
   <body>
@@ -204,67 +211,67 @@
           </section>
         </a>
       </section>
-
-      <!-- FEATURED LENS -->
-      <section class="featured-lens">
-        <!-- Title / Description -->
-        <h1 class="featured-lens__title">FEATURED LENS</h1>
-        <p class="featured-lens__description">A WORLD OF SIGHT</p>
-
-        <!-- Featured Products -->
-        <ul class="featured-lens-list">
-          <!-- Item 1 -->
-          <li class="featured-lens">
-            <a class="featured-lens__main">
-              <section class="featured-lens__image">
-                <img
-                  class="lens-image"
-                  src="/Images/Featured Lens/70-200mm-lens.png"
-                />
-              </section>
-              <section class="featured-lens__description">
-                <p class="lens-description">
-                  FE 70-200 mm F2.8 GM OSS II Full-frame Telephoto Zoom G Master
-                  Lens with Optical SteadyShot
-                </p>
-              </section>
-            </a>
-          </li>
-          <!-- Item 2 -->
-          <li class="featured-lens">
-            <a class="featured-lens__main">
-              <section class="featured-lens__image">
-                <img
-                  class="lens-image"
-                  src="/Images/Featured Lens/24-70mm-lens.png"
-                />
-              </section>
-              <section class="featured-lens__description">
-                <p class="lens-description">
-                  FE 24-70 mm F2.8 GM Full-frame Standard Zoom G Master Lens
-                </p>
-              </section>
-            </a>
-          </li>
-          <!-- Item 3 -->
-          <li class="featured-lens">
-            <a class="featured-lens__main">
-              <section class="featured-lens__image">
-                <img
-                  class="lens-image"
-                  src="/Images/Featured Lens/14mm-lens.png"
-                />
-              </section>
-              <section class="featured-lens__description">
-                <p class="lens-description">
-                  FE 14mm F1.8 GM Full-frame Ultra-wide Prime G Master Lens
-                </p>
-              </section>
-            </a>
-          </li>
-        </ul>
-      </section>
     </main>
+
+    <!-- FEATURED LENS -->
+    <section class="featured-lens">
+      <!-- Title / Description -->
+      <h1 class="featured-lens__title">FEATURED LENS</h1>
+      <p class="featured-lens__description">A WORLD OF SIGHT</p>
+
+      <!-- Featured Products -->
+      <ul class="featured-lens-list">
+        <!-- Item 1 -->
+        <li class="featured-lens__link">
+          <a class="featured-lens__main">
+            <section class="featured-lens__image">
+              <img
+                class="lens-image"
+                src="/Images/Featured Lens/70-200mm-lens.png"
+              />
+            </section>
+            <section class="featured-lens__description">
+              <p class="lens-description">
+                FE 70-200 mm F2.8 GM OSS II Full-frame Telephoto Zoom G Master
+                Lens with Optical SteadyShot
+              </p>
+            </section>
+          </a>
+        </li>
+        <!-- Item 2 -->
+        <li class="featured-lens__link">
+          <a class="featured-lens__main">
+            <section class="featured-lens__image">
+              <img
+                class="lens-image"
+                src="/Images/Featured Lens/24-70mm-lens.png"
+              />
+            </section>
+            <section class="featured-lens__description">
+              <p class="lens-description">
+                FE 24-70 mm F2.8 GM Full-frame Standard Zoom G Master Lens
+              </p>
+            </section>
+          </a>
+        </li>
+        <!-- Item 3 -->
+        <li class="featured-lens__link">
+          <a class="featured-lens__main">
+            <section class="featured-lens__image">
+              <img
+                class="lens-image"
+                src="/Images/Featured Lens/14mm-lens.png"
+              />
+            </section>
+            <section class="featured-lens__description">
+              <p class="lens-description">
+                FE 14mm F1.8 GM Full-frame Ultra-wide Prime G Master Lens
+              </p>
+            </section>
+          </a>
+        </li>
+      </ul>
+    </section>
 
     <!-- FOOTER -->
     <footer class="footer-global">
@@ -296,7 +303,8 @@
         <nav class="newsletter-category">
           <h1 class="category-title">Sign up to our Newsletter</h1>
           <p class="category-description">
-            Join now and get 10% off your next purchase!
+            Join now and get 10% off your<br />
+            next purchase!
           </p>
           <a class="category-link">READ MORE ></a>
         </nav>
