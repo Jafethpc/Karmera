@@ -263,7 +263,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 750px;
+    width: 100%;
     padding: 30px 0;
     color: white;
     font-family: Montserrat;
@@ -578,7 +578,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 750px;
+    width: 100%;
     padding: 30px 0;
     color: white;
     font-family: Montserrat;
@@ -770,6 +770,7 @@
     padding: 20px 20px;
   }
   .item-title {
+    font-size: 18px;
     font-weight: 700;
   }
   .featured-item__description .delivery-date {
@@ -777,7 +778,7 @@
     font-weight: 500;
   }
   .featured-item__description .price {
-    font-size: 30px;
+    font-size: 28px;
     margin: 4px;
   }
   .featured-item__description .shop-now-btn {
@@ -815,8 +816,8 @@
   }
   .accessories-category,
   .category-image {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
   }
   .accessories-category {
     background-color: rgb(245, 245, 245);
