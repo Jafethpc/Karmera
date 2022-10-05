@@ -1,0 +1,152 @@
+{
+  "Products": {
+    "Cameras": [
+      {
+        "name": "FUJIFILM X-H2 Mirrorless Camera",
+        "brand": "FUJIFILM",
+        "megapixels": "40",
+        "sensorSize": "APS-C",
+        "keyFeatures": [
+          "40MP APS-C X-Trans5 BSI Sensor",
+          "7-Stop In-Body Image Stabilization",
+          "8K 30p, 4K 60p, FHD 240p 10-Bit Video",
+          "5.76m-Dot OLED Electronic Viewfinder"
+        ],
+        "reviews": "5",
+        "price": "1999",
+        "availability": "CS",
+        "image": "/Images/Products Page/Camera Images/fujifilm-x-h2.png"
+      },
+      {
+        "name": "Sony a7 IV Mirrorless Camera",
+        "brand": "Sony",
+        "megapixels": "33",
+        "sensorSize": "Full Frame",
+        "keyFeatures": [
+          "33MP Full-Frame Exmor R CMOS Sensor",
+          "Up to 10 fps Shooting, ISO 100-51200",
+          "4K 60p Video in 10-Bit, S-Cinetone",
+          "3.68m-Dot EVF with 120 fps Refresh Rate"
+        ],
+        "reviews": "4",
+        "price": "2498",
+        "availability": "2-4",
+        "image": "/Images/Products Page/Camera Images/sony-a7-iv.png"
+      },
+      {
+        "name": "Canon EOS R6 Mirrorless Camera",
+        "brand": "Canon",
+        "megapixels": "20",
+        "sensorSize": "Full Frame",
+        "keyFeatures": [
+          "20MP Full-Frame CMOS Sensor",
+          "DIGIC X Image Processor",
+          "4K60p and FHD 120p 10-Bit Internal Video",
+          "Sensor-Shift 5-Axis Image Stabilization"
+        ],
+        "reviews": "4",
+        "price": "2499",
+        "availability": "2-4",
+        "image": "/Images/Products Page/Camera Images/canon-eos-r6.png"
+      },
+      {
+        "name": "Hasselblad X2D 100C Medium Format Mirrorless Camera",
+        "brand": "Hasselblad",
+        "megapixels": "100",
+        "sensorSize": "Medium Format",
+        "keyFeatures": [
+          "100MP 43.8 x 32.9mm BSI CMOS Sensor",
+          "16-Bit Color, 15-Stop Dynamic Range",
+          "294 Phase Detection Autofocus Zones",
+          "5-Axis 7-Stop In-Body Stabilization"
+        ],
+        "reviews": "0",
+        "price": "8199",
+        "availability": "CS",
+        "image": "/Images/Products Page/Camera Images/hasselblad-x2d-100c.png"
+      },
+      {
+        "name": "Sony a7S III Mirrorless Camera",
+        "brand": "Sony",
+        "megapixels": "12",
+        "sensorSize": "Full Frame",
+        "keyFeatures": [
+          "12MP Full-Frame Exmor R BSI CMOS Sensor",
+          "UHD 4K 120p Video, 10-Bit 4:2:2 Internal",
+          "16-Bit Raw Output, HLG & S-Cinetone",
+          "759-Point Fast Hybrid AF"
+        ],
+        "reviews": "5",
+        "price": "3498",
+        "availability": "2-4",
+        "image": "/Images/Products Page/Camera Images/sony-a7s-iii.png"
+      },
+      {
+        "name": "Sony a6400 Mirrorless Camera with 16-50mm Lens",
+        "brand": "Sony",
+        "megapixels": "24.2",
+        "sensorSize": "APS-C",
+        "keyFeatures": [
+          "24.2MP APS-C Exmor CMOS Sensor",
+          "BIONZ X Image Processor",
+          "Real-Time Eye AF & Real-Time Tracking",
+          "XGA Tru-Finder 2.36m-Dot OLED EVF"
+        ],
+        "reviews": "4",
+        "price": "998",
+        "availability": "2-4",
+        "image": "/Images/Products Page/Camera Images/sony-a6400.png"
+      },
+      {
+        "name": "Canon EOS R5 C Mirrorless Cinema Camera",
+        "brand": "Canon",
+        "megapixels": "45",
+        "sensorSize": "Full Frame",
+        "keyFeatures": [
+          "Two Cameras in One Body: Photo + Cinema",
+          "45MP Stills, Full-Frame 8K CMOS Sensor",
+          "Photo/Video Switch Changes Settings Menu",
+          "JPEG/C-RAW, 12-Bit Cinema RAW Light"
+        ],
+        "reviews": "4",
+        "price": "4799",
+        "availability": "2-4",
+        "image": "/Images/Products Page/Camera Images/canon-eos-r5-c.png"
+      },
+      {
+        "name": "Nikon COOLPIX P1000 Digital Camera",
+        "brand": "Nikon",
+        "megapixels": "16",
+        "sensorSize": "1/2.3",
+        "keyFeatures": [
+          "NIKKOR 24-3000mm Lens (35mm Equivalent)",
+          "Aperture Range: f/2.8-8",
+          "16MP BSI CMOS Sensor",
+          "EXPEED Image Processor"
+        ],
+        "reviews": "5",
+        "price": "996",
+        "availability": "2-4",
+        "image": "/Images/Products Page/Camera Images/nikon-coolpix-p1000.png"
+      },
+      {
+        "name": "Nikon D850 DSLR Camera",
+        "brand": "Nikon",
+        "megapixels": "46.89",
+        "sensorSize": "Full Frame",
+        "keyFeatures": [
+          "45.7MP FX-Format BSI CMOS Sensor",
+          "EXPEED 5 Image Processor",
+          "4K UHD Video Recording at 30 fps",
+          "Multi-CAM 20K 153-Point AF System"
+        ],
+        "reviews": "5",
+        "price": "2796",
+        "availability": "2-4",
+        "image": "/Images/Products Page/Camera Images/nikon-d850.png"
+      }
+    ],
+    "Lens": [],
+    "Accessories": []
+  }
+}
