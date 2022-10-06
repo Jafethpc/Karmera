@@ -1,3 +1,6 @@
+* {
+  font-family: Montserrat;
+}
 main {
   display: flex;
   flex-direction: column;
