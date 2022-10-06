@@ -1,5 +1,6 @@
-.black {
+.navigation-slider {
   display: flex;
+  flex-direction: column;
   background-color: rgb(236, 236, 236);
   position: fixed;
   bottom: 0;
@@ -7,12 +8,72 @@
   top: 0;
   width: 300px;
   margin-left: -300px;
+  font-family: Montserrat;
   z-index: 5;
   transition: margin-left 0.2s;
 }
-.black ul {
-  padding: 60px 0 0 10px;
+.sign-in {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  margin-top: 67px;
+  padding: 0 15px;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(223, 52, 52);
+  cursor: pointer;
 }
+.sign-in:hover {
+  color: rgb(223, 52, 52);
+  background-color: rgb(29, 19, 2);
+}
+.sign-in .profile-icon {
+  filter: brightness(0) invert(1);
+  margin-right: 10px;
+  font-weight: 700;
+  height: 35px;
+  width: 35px;
+}
+.sign-in:hover .profile-icon {
+  filter: none;
+}
+
+.navigation-slider .navigation-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 65%;
+  font-size: 18px;
+  font-weight: 600;
+}
+.navigation-slider .navigation-options .option,
+.navigation-slider .help-options .option {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 15px;
+}
+.navigation-slider .navigation-options .option a,
+.navigation-slider .help-options .option a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+}
+.navigation-slider .navigation-options .option:hover,
+.navigation-slider .help-options .option:hover {
+  background-color: rgb(210, 210, 210);
+}
+.navigation-slider .help-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 25%;
+}
+
 .invisible {
   width: 70px;
   position: absolute;
