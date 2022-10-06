@@ -393,6 +393,7 @@
   }
   .product-information__pricing {
     width: 130px;
+    margin-right: 10px;
   }
   .product-description {
     display: flex;
