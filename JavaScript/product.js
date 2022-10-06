@@ -37,7 +37,7 @@ fetch("JavaScript/products.json")
                 - ${e.keyFeatures[0]}<br />
                 - ${e.keyFeatures[1]}<br />
                 - ${e.keyFeatures[2]}<br />
-                - ${e.keyFeatures[3]}
+                <span class="four-feature">- ${e.keyFeatures[3]}</span>
               </p>
             </section>
             <!-- Cost -->
