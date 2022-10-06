@@ -1,3 +1,6 @@
+* {
+  font-family: Montserrat;
+}
 @media (min-width: 820px) {
   /* MENU SEGMENT */
   .main-content {
