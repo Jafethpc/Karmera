@@ -93,12 +93,6 @@
   font-family: Montserrat;
   padding: 10px 0;
   margin-bottom: 25px;
-  cursor: pointer;
-  transition: color 0.1s, background-color 0.1s;
-}
-.deals-banner:hover {
-  color: rgb(223, 52, 52);
-  background-color: rgb(29, 19, 2);
 }
 .deals-title {
   font-size: 20px;

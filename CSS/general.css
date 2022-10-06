@@ -1,3 +1,22 @@
+.black {
+  display: flex;
+  background-color: rgb(236, 236, 236);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  width: 300px;
+  margin-left: -300px;
+  z-index: 5;
+  transition: margin-left 0.2s;
+}
+.black ul {
+  padding: 60px 0 0 10px;
+}
+.invisible {
+  width: 70px;
+  position: absolute;
+}
 @media (min-width: 650px) {
   * {
     border-style: none;
@@ -35,6 +54,7 @@
     align-items: center;
     height: 50px;
     width: 70px;
+    z-index: 6;
   }
   .nav-icon,
   .profile-icon,
@@ -159,6 +179,7 @@
     align-items: center;
     height: 50px;
     width: 70px;
+    z-index: 6;
   }
   .nav-icon,
   .profile-icon,
