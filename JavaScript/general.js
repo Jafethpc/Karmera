@@ -16,3 +16,14 @@ document.querySelector(".nav-btn").addEventListener("click", function () {
     invis.style.position = "absolute";
   }
 });
+
+document.querySelector("main").addEventListener("click", function () {
+  const menu = document.querySelector(".navigation-slider");
+  const marginProp = window
+    .getComputedStyle(menu)
+    .getPropertyValue("margin-left");
+
+  if (marginProp === "0px") {
+    menu.style.marginLeft = "-300px";
+  }
+});
