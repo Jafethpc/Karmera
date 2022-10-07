@@ -186,6 +186,7 @@
     border-radius: 5px;
     margin: 10px 0;
     font-size: 18px;
+    width: 150px;
   }
   .form-textbox {
     box-sizing: border-box;
