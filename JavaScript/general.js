@@ -1,3 +1,5 @@
+// NAV SLIDER -- REMOVES / ADDS MARGIN
+
 document.querySelector(".nav-btn").addEventListener("click", function () {
   const menu = document.querySelector(".navigation-slider");
   const navIcon = document.querySelector(".nav-btn");
